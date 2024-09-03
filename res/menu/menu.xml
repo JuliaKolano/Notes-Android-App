@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/calendar"
+        android:icon="@drawable/ic_calendar"
+        android:title="@string/calendar"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/tabs"
+        android:icon="@drawable/ic_tabs"
+        android:title="@string/tabs"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/purpleTheme"
+        android:title="@string/purpleTheme">
+    </item>
+    <item
+        android:id="@+id/blueTheme"
+        android:title="@string/blueTheme">
+    </item>
+    <item
+        android:id="@+id/yellowTheme"
+        android:title="@string/yellowTheme">
+    </item>
+</menu>

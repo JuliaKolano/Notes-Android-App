@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">My Day</string>
+    <string name="calendar">Calendar</string>
+    <string name="tabs">Tabs</string>
+    <string name="search">Search</string>
+    <string name="nameHint">Name of Task</string>
+    <string name="descriptionHeading">Description</string>
+    <string name="description">Details here…</string>
+    <string name="timeHeading">Time to complete by</string>
+    <string name="priorityHeading">Priority</string>
+    <string name="priority">Choose priority</string>
+    <string name="timeText">Time: </string>
+    <string name="priorityText">Priority: </string>
+    <string name="taskButton">Add task</string>
+    <string name="addButton">Add task</string>
+    <string name="editButton">Edit Task</string>
+    <string name="snackbarDeleteAction">Do you want to delete the task?</string>
+    <string name="snackbarDeleteMessage">Delete</string>
+    <string name="snackbarDeleteDone">Task deleted</string>
+    <string name="purpleTheme">Purple Theme</string>
+    <string name="blueTheme">Blue Theme</string>
+    <string name="yellowTheme">Yellow Theme</string>
+
+    <string-array name="priorityArray">
+        <item>Critical</item>
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+
+</resources>

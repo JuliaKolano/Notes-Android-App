@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    Android default colours-->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+<!--    My Purple and Blue Colours-->
+    <color name="primary_purple">#673AB7</color>
+    <color name="primary_dark_purple">#512DA8</color>
+    <color name="primary_light_purple">#EADEFF</color>
+    <color name="accent_purple">#0080BA</color>
+    <color name="primary_text_purple">#212121</color>
+    <color name="secondary_text_purple">#757575</color>
+    <color name="icons_purple">#FFFFFF</color>
+    <color name="divide_purple">#BDBDBD</color>
+
+<!--    My Blue and Green Colours-->
+    <color name="primary_blue">#03A9F4</color>
+    <color name="primary_dark_blue">#0288D1</color>
+    <color name="primary_light_blue">#B3E5FC</color>
+    <color name="accent_blue">#005F56</color>
+    <color name="primary_text_blue">#212121</color>
+    <color name="secondary_text_blue">#757575</color>
+    <color name="icons_blue">#FFFFFF</color>
+    <color name="divider_blue">#BDBDBD</color>
+
+<!--    My Yellow and Purple Colours-->
+    <color name="primary_yellow">#FFC107</color>
+    <color name="primary_dark_yellow">#FFA000</color>
+    <color name="primary_light_yellow">#FFECB3</color>
+    <color name="accent_yellow">#7C4DFF</color>
+    <color name="primary_text_yellow">#212121</color>
+    <color name="secondary_text_yellow">#757575</color>
+    <color name="icons_yellow">#212121</color>
+    <color name="divider_yellow">#BDBDBD</color>
+</resources>

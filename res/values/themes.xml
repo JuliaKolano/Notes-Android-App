@@ -1,0 +1,43 @@
+<resources>
+    <!-- Purple application theme. -->
+    <style name="Theme.MyDay" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_purple</item>
+        <item name="colorPrimaryVariant">@color/primary_dark_purple</item>
+        <item name="colorOnPrimary">@color/icons_purple</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent_purple</item>
+        <item name="colorSecondaryVariant">@color/secondary_text_purple</item>
+        <item name="colorOnSecondary">@color/icons_purple</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+<!--    Blue application theme-->
+    <style name="Theme.Blue" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_dark_blue</item>
+        <item name="colorOnPrimary">@color/icons_blue</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent_blue</item>
+        <item name="colorSecondaryVariant">@color/secondary_text_blue</item>
+        <item name="colorOnSecondary">@color/icons_blue</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primary_blue</item>
+    </style>
+
+<!--    Yellow application theme-->
+    <style name="Theme.Yellow" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_yellow</item>
+        <item name="colorPrimaryVariant">@color/primary_dark_yellow</item>
+        <item name="colorOnPrimary">@color/icons_yellow</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent_yellow</item>
+        <item name="colorSecondaryVariant">@color/secondary_text_yellow</item>
+        <item name="colorOnSecondary">@color/icons_yellow</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primary_yellow</item>
+    </style>
+</resources>

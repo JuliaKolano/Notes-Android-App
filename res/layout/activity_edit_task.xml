@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/editTaskScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MakeTask">
+
+    <LinearLayout
+        android:id="@+id/editTaskLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/taskNameEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="no"
+            android:hint="@string/nameHint"
+            android:inputType="text"
+            android:paddingHorizontal="18dp"
+            android:textColorHint="#919090"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/descriptionHeadingEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="18dp"
+            android:text="@string/descriptionHeading"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/descriptionEdit"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:autofillHints="no"
+            android:gravity="top"
+            android:hint="@string/description"
+            android:inputType="textMultiLine"
+            android:paddingTop="10dp"
+            android:paddingHorizontal="18dp"
+            android:textColorHint="#858585"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/timeHeadingEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="18dp"
+            android:text="@string/timeHeading"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <TimePicker
+            android:id="@+id/timeEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner">
+        </TimePicker>
+
+        <TextView
+            android:id="@+id/priorityHeadingEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="18dp"
+            android:text="@string/priorityHeading"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <Spinner
+            android:id="@+id/priorityEdit"
+            android:contentDescription="@string/priority"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingHorizontal="18dp">
+        </Spinner>
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/editButton"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>
